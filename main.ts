@@ -27,11 +27,6 @@ basic.forever(function () {
 basic.forever(function () {
     if (timeanddate.time(timeanddate.TimeFormat.HHMMSS24hr) == "09:00.00") {
         radio.sendString("take your meds")
-        servos.P0.setAngle(80)
-        basic.pause(900)
-        servos.P0.setAngle(100)
-        basic.pause(800)
-        servos.P0.stop()
     }
 })
 basic.forever(function () {
