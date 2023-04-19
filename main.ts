@@ -23,7 +23,6 @@ basic.forever(function () {
         basic.showIcon(IconNames.No)
     }
     if (timeanddate.time(timeanddate.TimeFormat.HMMSSAMPM) == "09:05.30") {
-        basic.pause(1000)
         basic.clearScreen()
     }
 })
